@@ -266,19 +266,6 @@ app.get('/signup', (req, res) => {
   res.render('signup', { message: req.flash('error') });
 });
 
-app.post('/signup', (req, res) => {
-  const { body } = req;
-
-  if (body.password !== body['confirm-password']) {
-    req.flash('error', 'Password did not match confirmation!');
-    return res.redirect('/signup');
-  }
-
-  delete body['confirm-password']
-
-  User.forge(body).save()
-});
-
 // Exports for Server Hoisting.
 
 const listen = (port) => {
