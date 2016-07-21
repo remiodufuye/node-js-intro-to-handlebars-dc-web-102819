@@ -3,7 +3,7 @@ Introduction to Handlebars
 
 ## Objectives
 
-1. Explain what [Handlebars](http://handlebarsjs.com/) i
+1. Explain what [Handlebars](http://handlebarsjs.com/) is
 2. Connect Handlebars to the previously built application
 3. Write a helper for formatting comments as Markdown
 
@@ -199,3 +199,5 @@ But if everything goes well, you should be shown a page with `{ id: [your user's
 Now that you have a basic understanding of how Handlebars templates work, we encourage you to flex some of those developer muscles. Can you write a template for rendering comments from scratch? Can you redirect to that page after successfully signing up?
 
 Have fun!
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/node-js-intro-to-handlebars'>An App with a View (Intro To Handlebars)</a> on Learn.co and start learning to code for free.</p>
